@@ -6,7 +6,6 @@ set(CMAKE_CXX_FLAGS "-D__STDC_CONSTANT_MACROS")
 
 find_path(AVCODEC_INCLUDE_DIR libavcodec/avcodec.h)
 find_library(AVCODEC_LIBRARY avcodec)
-message(STATUS ${AVCODEC_LIBRARY})
 
 find_path(AVFORMAT_INCLUDE_DIR libavformat/avformat.h)
 find_library(AVFORMAT_LIBRARY avformat)
